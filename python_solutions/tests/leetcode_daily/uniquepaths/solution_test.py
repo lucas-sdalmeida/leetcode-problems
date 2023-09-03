@@ -7,7 +7,7 @@ class SolutionTest(unittest.TestCase):
         super().__init__(methodName)
         self._solution = Solution()
 
-    def test_if_there_is_no_paths_when_it_is_already_there(self):
+    def test_if_there_is_a_single_path_for_one_dimensional_grids(self):
         result = self._solution.unique_paths(1, 1)
         self.assertEqual(0, result)
 
