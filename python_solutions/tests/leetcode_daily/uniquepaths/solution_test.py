@@ -9,7 +9,7 @@ class SolutionTest(unittest.TestCase):
 
     def test_if_there_is_a_single_path_for_one_dimensional_grids(self):
         result = self._solution.unique_paths(1, 1)
-        self.assertEqual(0, result)
+        self.assertEqual(1, result)
 
     def test_if_there_is_three_paths(self):
         result = self._solution.unique_paths(3, 2)
