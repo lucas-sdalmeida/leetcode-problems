@@ -1,5 +1,4 @@
-# todo: optimize the code
-class Solution:
+class RecursiveSolution:
     def __init__(self):
         self.memo = set()
 

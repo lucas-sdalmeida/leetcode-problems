@@ -54,7 +54,3 @@ class MyStack:
             second_queue.push(main_queue.peek())
 
         self.main_queue_index = second_queue_index
-
-
-if __name__ == '__main__':
-    pass
