@@ -3,8 +3,6 @@ class Solution:
         self._memo_ = {}
 
     def unique_paths(self, m, n):
-        if m == n == 1:
-            return 0
         if m == 1 or n == 1:
             return 1
         if (m, n) not in self._memo_.keys():
